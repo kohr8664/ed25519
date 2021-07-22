@@ -1,13 +1,10 @@
 #include <ed25519.h>
-//#include <sha512.h>
 #include <ge.h>
 
 #include <blake3.h>
 
 void ed25519_create_keypair(unsigned char *public_key, unsigned char *private_key, const unsigned char *seed) {
     ge_p3 A;
-
-    //sha512(seed, 32, private_key);
 
     blake3_hasher hash;
     blake3_hasher_init(&hash);
