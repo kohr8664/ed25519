@@ -1,0 +1,3 @@
+[submodule "extra/tinyBLAKE3"]
+	path = extra/tinyBLAKE3
+	url = git@github:kohr8664/tinyBLAKE3.git
