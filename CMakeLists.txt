@@ -50,4 +50,4 @@ set_target_properties(
 
 # Add test executable target
 add_executable(ed25519_test ./src/test/test.c)
-target_link_libraries(ed25519_test PRIVATE ed25519_static)
+target_link_libraries(ed25519_test PRIVATE ed25519_dynamic)
